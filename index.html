@@ -3,30 +3,72 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>我的主页</title>
+    <title>kuanyuchen0309 的主页</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>你好</h1>
+<header>
+    <h1>kuanyuchen0309</h1>
+    <nav>
     <ul>
-        <li><a href="https://github.com/kuanyuchen0309">Github</a></li>
+        <li><a href="https://github.com/kuanyuchen0309">GitHub</a></li>
         <li><a href="#about">关于我</a></li>
+        <li><a href="#contact">联系我</a></li>
     </ul>
-    <h2>这是一个二级标题</h2>
-    <p id="about">这只是一个自制的自学站点，没有任何实际有效内容，这个过程是比较漫长的。</p>
-    <a href="http://www.baidu.com">百度</a>
-    <img class="avatar" src="./img/avatar.png" alt="我的头像"
-    >
+  </nav>
+  </header>
+
+  <main>
+    <section id="about">
+    <h2>关于我</h2>
+    <img class="avatar" src="./img/touxiang.JPG" alt="我的头像">
+    <p>这里是一个自学 web 开发的练手站点。没有商业目的，也不用来找工作，目的只有一个：把「看过教程」变成「自己能写出来」。</p>
+    <p>从 2026 年 10 月开始，每天学一点，学完就写在这里。</p>
+    </section>
+
+    <section>
+    <h2>现在在学什么</h2>
     <ul>
-        <li>第一项</li>
-        <li>第二项</li>
-        <li><a href="http://www.baidu.com">百度</a></li>
+        <li>HTML 和 CSS（第 1 周：页面结构和样式）</li>
+        <li>工具：VS Code、Git、GitHub Pages</li>
+        <li>方法：看文档、动手改、故意写错看会怎样</li>
     </ul>
+    </section>
+
+    <section>
+    <h2>接下来想做的三件事</h2>
     <ol>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>学会 JavaScript，让页面能响应用户操作</li>
+        <li>学会响应式布局，让手机上也好看</li>
+        <li>有自己的域名，把网站搬过去</li>
     </ol>
-    <div>不知道放什么</div>
-    </body>
+    </section>
+
+    <section>
+    <h2>这个站点</h2>
+    <div class="box">
+        源码是公开的，可以直接看：<a href="https://github.com/kuanyuchen0309/mywebsite">kuanyuchen0309/mywebsite</a>
+    </div>
+    </section>
+
+    <section id="contact">
+<h2>联系我</h2>
+<form>
+    <label for="name">名字</label>
+    <!--for后面的"name"相当于自定义的id-->
+    <input type="text" id="name" name="name">
+    <!--type后面的text相当于id的类型,比如纯text或email-->
+
+    <label for="email">邮箱</label>
+    <input type="email" id="email" name="email">
+
+    <button type="submit">发送</button>
+
+    </form>
+    </section>
+    </main>
+    <footer>
+        <p>© 2026 kuanyuchen0309</p>
+    </footer>
+</body>
 </html>

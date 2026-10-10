@@ -1,3 +1,18 @@
 *{
     box-sizing: border-box;
 }
+h1{
+    color: #0b6bcb;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+body{
+    font-family: system-ui,"Microsoft YaHei",sans-serif;
+line-height: 1.6;
+color:#222;
+background-color: #fafafa;
+margin: 0;
+}
